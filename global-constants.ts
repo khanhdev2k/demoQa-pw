@@ -1,0 +1,1 @@
+export const BASE_URL_DEMOQA = 'https://demoqa.com/'
