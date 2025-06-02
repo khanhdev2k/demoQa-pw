@@ -9,6 +9,7 @@ export default defineConfig({
     headless: false, // Show the browser (good for debugging)
     screenshot: 'on', // Take screenshots on test failure
     trace: 'on', // Record traces for debugging
+    viewport: {width: 1920, height: 1080},
   },
   projects: [
     {

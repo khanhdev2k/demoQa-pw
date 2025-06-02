@@ -1,10 +1,30 @@
 {
-    "validCredentials": {
-      "username": "Admin",
-      "password": "admin123"
-    },
-    "invalidCredentials": {
-      "username": "InvalidUser",
-      "password": "InvalidPass"
-    }
-  }
+    "registrationFrom": 
+      {
+        "validUser": {
+          "firstName": "John",
+          "lastName": "Doe",
+          "email": "john.doe@example.com",
+          "age": "30",
+          "salary": "50000",
+          "department": "IT"
+        },
+        "invalidUser": {
+          "firstName": "",
+          "lastName": "",
+          "email": "invalid-email",
+          "age": "15",
+          "salary": "0",
+          "department": ""
+        }
+      },
+      "validCredentials": {
+        "username": "Admin",
+        "password": "admin123"
+      },
+      "invalidCredentials": {
+        "username": "khanhlediii",
+        "password": "khanhdeptrai"
+      }
+
+}
