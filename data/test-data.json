@@ -25,6 +25,23 @@
       "invalidCredentials": {
         "username": "khanhlediii",
         "password": "khanhdeptrai"
+      },
+      "dataUser": {
+        "username": "khanhle",
+        "email": "duykhanh@gmail.com",
+        "gender": "male",
+        "hobbies": {
+          "1": "reading",
+          "2": "cooking"
+        },
+        "interesting": "music",
+        "country": "usa",
+        "dateOfBirth": "1999-01-20",
+        "profilePic": " ",
+        "biograhy": " ",
+        "rate": 2,
+        "colourFav": "#8c4545",
+        "startRate": "1.9",
+        "dateCus": "2025/05/01"
       }
-
 }

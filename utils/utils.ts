@@ -18,4 +18,5 @@ export class Utils {
       const day = String(date.getDate()).padStart(2, '0');
       return format.replace('YYYY', year).replace('MM', month).replace('DD', day);
     }
+
   }
