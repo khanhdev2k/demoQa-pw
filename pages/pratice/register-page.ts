@@ -52,5 +52,30 @@ export class RegisterPage {
         // input Day of birth
         await this.waitForElement( RegisterUI.dob)
         await this.page.fill( RegisterUI.dob, testData.dataUser.dateOfBirth)
+
+        // input range
+        await this.waitForElement(RegisterUI.rating);
+        await this.page.fill( RegisterUI.rating, testData.dataUser.rate);
+
+        // input favColor
+        await this.waitForElement(RegisterUI.favColor);
+        await this.page.fill(RegisterUI.favColor, testData.dataUser.colourFav);
+
+        // Hover
+        await this.waitForElement( RegisterUI.hover);
+        await this.page.locator( RegisterUI.hover).hover();
+
+        // toggle button
+        await this.waitForElement( RegisterUI.toggleBtn);
+        await this.page.locator( RegisterUI.toggleBtn).click();
+
+        // start rating
+        await this.waitForElement( RegisterUI.startRating);
+        await this.page.locator( RegisterUI.startRating).evaluate( (el) => {
+            el.setAttribute('data-rating', '3.0');
+            el.style.setProperty( '--rating-width', '80%')
+        });
+
+        await this.page.locator( RegisterUI.submitBtn).click();
     }
 }
