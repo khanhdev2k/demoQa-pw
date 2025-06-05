@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  workers: 3, // run 3 times in a test
   testDir: './tests',
   fullyParallel: true,
   reporter: 'html',
