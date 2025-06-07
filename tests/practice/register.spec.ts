@@ -17,8 +17,4 @@ test.describe('Flow register page', async () => {
     });
 
 
-    test.afterEach(async ({ page }) => {
-        await page.close();
-    });
-
 })

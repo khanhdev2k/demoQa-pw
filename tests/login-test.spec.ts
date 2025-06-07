@@ -21,7 +21,4 @@ test.describe('OrangeHRM Login Tests', () => {
     await loginPage.verifyErrorMessage('Invalid credentials');
   });
 
-  test.afterEach( async ({page}) => {
-    await page.close();
-  })
 });
