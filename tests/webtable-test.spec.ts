@@ -14,6 +14,7 @@ test.describe("DemoQA with webtable ", ()=> {
         webtable.clickBtnAdd();
         webtable.elementIsVisible();
         webtable.inputFormSuccessfully();
+        console.log("test CI")
     })
     
 })
