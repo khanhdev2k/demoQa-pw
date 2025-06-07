@@ -19,4 +19,8 @@ export class Utils {
       return format.replace('YYYY', year).replace('MM', month).replace('DD', day);
     }
 
+    static prettyJSON(obj: any){
+      return JSON.stringify(obj, null, 2 );
+    }
+
   }
