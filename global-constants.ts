@@ -11,6 +11,9 @@ export const  regres = {
     PUT: {
         update:'https://reqres.in/api/users/2'
     },
+    DELETE: {
+            deleteUser: 'https://reqres.in/api/users/2'
+    },
     AUTH: {
         X_API_KEY: 'reqres-free-v1'
     }
