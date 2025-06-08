@@ -7,7 +7,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     browserName: 'chromium', // Use Chrome
-    headless: false, // Show the browser (good for debugging)
+    headless: true, // Show the browser (good for debugging)
     screenshot: 'on', // Take screenshots on test failure
     trace: 'on', // Record traces for debugging
     viewport: {width: 1920, height: 1080},
