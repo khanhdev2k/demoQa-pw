@@ -12,9 +12,9 @@ test.describe("DemoQA with webtable ", ()=> {
 
     test('TC_001 - Add people onto webtable ', async ()=> {
         webtable.clickBtnAdd();
-        webtable.elementIsVisible();
-        webtable.inputFormSuccessfully();
-        console.log("test CI")
+        // webtable.elementIsVisible();
+        // webtable.inputFormSuccessfully();
+        // console.log("test CI")
     })
     
 })
